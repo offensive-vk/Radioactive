@@ -1,9 +1,9 @@
-import logo from '../assets/logo.jpg';
+// import logo from '../assets/logo.jpg';
 
 function Header() {
     return (
         <header>
-            <div className="logo">{logo}</div>
+            <div className="logo">Radioactive, Inc</div>
             <nav>
                 <ul className="nav-links">
                     <li><a href="#">Home</a></li>
