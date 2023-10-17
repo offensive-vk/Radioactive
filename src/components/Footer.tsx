@@ -17,6 +17,7 @@ function Footer() {
                     <li><a href="https://radioactive.com" target="_blank" rel="noopener noreferrer"></a></li>
                 </ul>
             </div> */}
+            <hr />
             <h4>Crafted & Created with ❤️ by Author.</h4>
         </footer>
     );
