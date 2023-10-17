@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(12px);
+    padding: 12px;
+    margin: 20px;
+    position: sticky;
+    z-index: 1;
+    top: 2rem;
+    outline: 1px solid #fff;
+    border-radius: 11px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin-inline-start: 12px;
+    font-size: 2.1ch;
+}
+
+.theme-switcher {
+    position: relative;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+    background-color: #007bff;
+    left: 20px;
+    transform: translateX(100%);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background: rgba(255, 255, 255, 0.9);
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 10px;
+    }
+}
+
+
+/* Footer */
+footer{
+    /* max-width: max-content; */
+    display: grid;
+    place-items: center;
+    align-content: center;
+    width: 95vw;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: rgb(39, 1, 56);
+}
+.brand{
+    color: yellow;
+    margin-top: 3px;
+    border-bottom: 1px solid;
+}
+h3{
+    font-size: 2.2rem;
+    font-family: Arial, monospace;
+    text-decoration: underline;
+
+    color: cyan;
+    letter-spacing: -1px;
+}
+h4{
+    font-family: monospace;
+    color: rgb(24, 247, 150);
+}
+hr{
+    background-color: #fff;
+    margin-top: 12px;
+    border-radius: 30px;
+}
+img{
+    margin: 4.4px;
+    height: 250px;
+    width: 300px;
+    border-radius: 12px;
+    mix-blend-mode: difference;
+}
