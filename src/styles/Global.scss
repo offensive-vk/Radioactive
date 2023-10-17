@@ -103,10 +103,15 @@ footer{
     display: grid;
     place-items: center;
     align-content: center;
-    width: 95vw;
+    max-width: 1400px;
+    width: 100vw;
+    box-sizing: border-box;
     padding: 25px;
     margin: 0 auto;
     background-color: rgb(39, 1, 56);
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
+
 }
 .brand{
     color: yellow;
@@ -136,7 +141,8 @@ img{
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    // mix-blend-mode: difference;
+    object-fit: cover;
+    mix-blend-mode: difference;
     animation: icon 15s infinite;
 }
 
