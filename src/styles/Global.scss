@@ -132,8 +132,18 @@ hr{
 }
 img{
     margin: 4.4px;
-    height: 250px;
+    height: 300px;
     width: 300px;
-    border-radius: 12px;
+    border-radius: 50%;
     mix-blend-mode: difference;
+    animation: icon 15s infinite;
+}
+
+@keyframes icon {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-720deg);
+    }
 }
