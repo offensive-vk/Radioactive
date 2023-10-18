@@ -1,4 +1,5 @@
 import logo from '../assets/logo.jpg';
+import '../styles/Loader.scss';
 
 function Loader() {
   return (
