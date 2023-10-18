@@ -11,6 +11,16 @@
     place-items: center;
     color: #fff;
     z-index: 9999;
+
+    img{
+        margin: 5px;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        mix-blend-mode: difference;
+        animation: icon 15s infinite;
+    }
 }
 
 @keyframes icon {
