@@ -1,0 +1,23 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(10, 10, 10);
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+    place-items: center;
+    color: #fff;
+    z-index: 9999;
+}
+
+@keyframes icon {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-720deg);
+    }
+}
