@@ -1,3 +1,4 @@
+/* Stylings for Loader */
 #loader {
     position: fixed;
     top: 0;
@@ -11,15 +12,6 @@
     place-items: center;
     color: #fff;
     z-index: 9999;
-    // animation: hide 1s linear;
-    // animation-delay: 4.5s;
-
-    // @keyframes hide {
-    //     to {
-    //         opacity: 0;
-    //         visibility: hidden;
-    //       }
-    // }
 
     #progress-bar {
         position: fixed;
