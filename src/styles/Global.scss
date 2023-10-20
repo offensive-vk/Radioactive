@@ -90,9 +90,8 @@ footer{
     place-items: center;
     align-content: center;
     grid-template-columns: 1fr 1fr;
-
-    max-width: 1400px;
-    width: 100vw;
+    gap: 18px;
+    // max-width: 1400px;
     box-sizing: border-box;
     padding: 25px;
     margin: 0 auto;
@@ -101,6 +100,8 @@ footer{
     border-top-left-radius: 120px;
 
     .company {
+        display: flex;
+        flex-wrap: wrap;
 
         .brand{
             color: yellow;

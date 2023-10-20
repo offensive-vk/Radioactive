@@ -5,10 +5,9 @@ function Footer() {
         <footer>
             <div className="company">
                 <img src={logo} alt="undefined" /><br />
-                <div className="brand">Radioactive, Inc</div>
-                <h3>Code. Test. Deploy.</h3>
-                <h3>Nuclear Tech, Atomic Innovation</h3>
-                <h4>&copy; {new Date().getFullYear()} Copyright by (Authors). All Rights Reserved.</h4>
+                <div className='brand'>Radioactive, Inc</div>
+                <div className='sub'>Code. Test. Deploy.</div>
+                <div className='slogan'>Nuclear Tech, Atomic Innovation</div>
             </div>
             <div className="socials">
                 <ul>
@@ -35,6 +34,7 @@ function Footer() {
                 </ul>
             </div>
             <hr />
+            <h4>&copy; {new Date().getFullYear()} Copyright by (Authors). All Rights Reserved.</h4>
             <h4>Crafted & Created with ❤️ by Author.</h4>
         </footer>
     );
