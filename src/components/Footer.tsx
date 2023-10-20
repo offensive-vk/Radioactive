@@ -5,9 +5,9 @@ function Footer() {
         <footer>
             <div className="company">
                 <img src={logo} alt="undefined" /><br />
-                <div className='brand'>Radioactive, Inc</div>
-                <div className='sub'>Code. Test. Deploy.</div>
-                <div className='slogan'>Nuclear Tech, Atomic Innovation</div>
+                <div className='text brand'>Radioactive, Inc</div><br />
+                <div className='text sub'>Code. Test. Deploy.</div><br />
+                <div className='text slogan'>Nuclear Tech, Atomic Innovation</div><br />
             </div>
             <div className="socials">
                 <ul>
@@ -32,10 +32,11 @@ function Footer() {
                         </a>
                     </li>
                 </ul>
+                <hr />
+                <div className='text copyright'>&copy; {new Date().getFullYear()} Copyright by (Authors). All Rights Reserved.</div>
+                <div className='text last'>Crafted & Created with ❤️ by Author.</div>
             </div>
-            <hr />
-            <h4>&copy; {new Date().getFullYear()} Copyright by (Authors). All Rights Reserved.</h4>
-            <h4>Crafted & Created with ❤️ by Author.</h4>
+            {/* <div className='others'></div> */}
         </footer>
     );
 }
