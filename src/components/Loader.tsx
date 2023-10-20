@@ -8,11 +8,13 @@ function Loader() {
       const loading: HTMLElement | null = document.getElementById('loader');
       setTimeout(() => {
         if (loading) {
+          loading.style.visibility = 'hidden';
           loading.style.display = 'none';
         }
       }, 4500);
     });
-  }, []); // An empty dependency array means this effect runs once when the component mounts
+    console.log("Should be hidden")
+  }); // An empty dependency array means this effect runs once when the component mounts
 
   return (
     <div id="loader">
