@@ -13,8 +13,8 @@ function Loader() {
         }
       }, 4500);
     });
-    console.log("Should be hidden")
-  }); // An empty dependency array means this effect runs once when the component mounts
+    console.log("=== Element should be hidden now ===")
+  }, []); // An empty dependency array means this effect runs once when the component mounts
 
   return (
     <div id="loader">
