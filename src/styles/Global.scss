@@ -108,6 +108,32 @@ footer{
             border-bottom: 1px solid;
             width: 50vw;
         }
+        
+        h3{
+            font-size: 2.2rem;
+            font-family: Arial, monospace;
+            text-decoration: underline;
+            color: cyan;
+            letter-spacing: -1px;
+        }
+        h4{
+            font-family: monospace;
+            color: rgb(24, 247, 150);
+        }
+        hr{
+            background-color: #fff;
+            margin-top: 12px;
+            border-radius: 30px;
+            width: 90%;
+        }    
+        @keyframes icon {
+            from{
+                transform: rotateZ(0deg);
+            }
+            to{
+                transform: rotateZ(-720deg);
+            }
+        }
         img{
             margin: 4.4px;
             height: 300px;
