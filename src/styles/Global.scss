@@ -71,7 +71,7 @@ footer{
     place-items: center;
     align-content: center;
     grid-template-columns: 1fr 1fr;
-    gap: 18px;
+    gap: 15px;
     // max-width: 1400px;
     box-sizing: border-box;
     padding: 25px;
@@ -82,13 +82,14 @@ footer{
 
     .company {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        // max-width: max-content;
 
         .brand{
             color: yellow;
             margin-top: 3px;
             border-bottom: 1px solid;
-            width: 50vw;
         }
         
         h3{
@@ -117,9 +118,9 @@ footer{
             }
         }
         img{
-            margin: 4.4px;
-            height: 300px;
-            width: 300px;
+            margin: 4px;
+            height: 200px;
+            width: 200px;
             border-radius: 50%;
             object-fit: cover;
             mix-blend-mode: difference;
