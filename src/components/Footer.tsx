@@ -31,6 +31,11 @@ function Footer() {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" />
                         </a>
                     </li>
+                    <li>
+                        <a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                        </a>
+                    </li>
                 </ul>
                 <hr />
                 <div className='text copyright'>&copy; {new Date().getFullYear()} Copyright by (Authors). All Rights Reserved.</div>
