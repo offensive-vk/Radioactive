@@ -4,6 +4,8 @@ import logo from './assets/logo.jpg';
 import Landing from './components/Landing';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import SectionHome from './components/SectionHome';
+
 // import Loader from './components/Loader';
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
     <>
       <Header />
       <Landing />
+      <SectionHome />
       <Footer />
     </>
   )
