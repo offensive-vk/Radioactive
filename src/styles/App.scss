@@ -25,6 +25,8 @@ body {
 #root{
     --max-width: 0;
     --min-width: 0;
+    margin: 1rem;
+    
 }
 @import url(Global.scss);
 @import url(Scroller.scss);
