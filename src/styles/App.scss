@@ -22,5 +22,10 @@ body {
     color: #fff;
     height: 100%;
 }
+#root{
+    --max-width: 0;
+    --min-width: 0;
 
+    
+}
 @import url(Global.scss);
