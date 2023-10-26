@@ -7,7 +7,7 @@ import SectionHome from './components/SectionHome';
 
 
 function App() {
-  console.log(`Welcome To Console @ ${undefined}.\n`);
+  console.log(`Welcome To Console @ ${undefined}.\n Elements Have Been Rendered. `);
   return (
     <>
       <Header />

@@ -26,7 +26,7 @@ body {
     --max-width: 0;
     --min-width: 0;
     margin: 1rem;
-    
+    background-color: inherit;
 }
 @import url(Global.scss);
 @import url(Scroller.scss);

@@ -183,6 +183,13 @@ footer{
             list-style: none;
 
             li{
+                border: 1.2px solid transparent;
+                transition: all 0.2s ease;
+                
+                &:hover{
+                    border-top: 1.1px solid #fff;
+                }
+
                 margin: 10px;
                 a{
                     img{
@@ -190,11 +197,6 @@ footer{
                         width: 30px;
                         margin: 5px;
                     }
-                }
-                transition: all 0.2s ease;
-
-                &:hover{
-                    box-shadow: 0 0 0.01rem #dedede;
                 }
             }
         }
