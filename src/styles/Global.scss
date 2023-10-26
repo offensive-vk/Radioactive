@@ -88,13 +88,15 @@ header {
         top: 1.5rem;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    footer{
-        padding: 1.24rem;
-        margin: 0 auto;
-        border-radius: 0;
-    }
-  }
+// @media screen and (min-width: 320px) and (max-width: 480px) {
+//     footer{
+//         padding: 1.24rem;
+//         margin: 0 auto;
+//         border-radius: 0;
+//         display: flex;
+//         flex-direction: row;
+//     }
+//   }
   
 /* Footer */
 footer{
