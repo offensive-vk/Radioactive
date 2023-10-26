@@ -8,8 +8,9 @@ function Header() {
                 <ul className="nav-links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#author">Author</a></li>
+                    <li><a href="#sources">Sources</a></li>
+                    <li><a href="#company">Company</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#codes">Codes</a></li>
                 </ul>
             </nav>
             {/* <div className="theme-switcher">
