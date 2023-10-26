@@ -1,0 +1,20 @@
+/* width and color of scrollbar track */
+::-webkit-scrollbar {
+    width: 1.2rem;
+    height: 1.25rem;
+    border-radius: 2.5rem;
+}
+
+/* color of scrollbar handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10vmax;
+    border: none;
+    background: rgb(13, 30, 36);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border: 2.5px solid hsl(180, 74%, 40%);
+}
+::-webkit-scrollbar-track {
+    margin-block: .50em;
+}
