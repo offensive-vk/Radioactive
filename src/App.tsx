@@ -7,6 +7,7 @@ import Home from './components/Home';
 
 
 function App() {
+  document.title = `Radioactive , Inc - Vedansh .K`;
   console.log(`Welcome To Console @ ${undefined}.\n Elements Have Been Rendered. `);
   return (
     <>
