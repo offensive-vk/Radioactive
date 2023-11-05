@@ -1,4 +1,3 @@
-// import logo from '../assets/logo.jpg';
 
 function Header() {
     return (
@@ -13,10 +12,6 @@ function Header() {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            {/* <div className="theme-switcher">
-                <input type="checkbox" id="theme-toggle" />
-                <label htmlFor="theme-toggle"></label>
-            </div> */}
         </header>
     );
 }
