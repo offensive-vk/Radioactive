@@ -31,6 +31,7 @@
     margin: 1.4rem 0;
     padding: 1.2rem 0 1.2rem 0;
     border: 1.5px solid #fff;
+    background-color: #002a2c;
 
     .box{
         height: clamp(250px, 2rem, 80vh);
@@ -39,18 +40,14 @@
         padding: 0.9rem;
         text-align: justify;
         white-space: wrap;
-        line-clamp: 1.2rem;
         animation: style 5s ease-in-out infinite;
         line-height: 1.5;
+        backdrop-filter: blur(12px);
 
-        &::first-line{
-            font-style: italic;
+        .opening, .closing {
             color: #18f796;
-            font-size: 2.2rem;
-        }
+            font-size: 2.1rem;
 
-        &:hover{
-            backdrop-filter: blur(15px);
         }
     }
 
