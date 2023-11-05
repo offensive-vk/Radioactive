@@ -1,4 +1,27 @@
 # React + TypeScript + Vite
+Production Build Repo for Enhanced Testing and Deployments.
+
+## Crafted using Bun 🙌
+<p align="center">
+  <a href="https://bun.sh"><img src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png" alt="bun" height=350 width=350></a>
+</p>
+
+## Star this repository and fork , ( if you want to contribute ).
+## To get started 
+```bash
+$ git clone https://github.com/offensive-vk/Radioactive
+$ cd Radioactive
+```
+
+## Install Dependencies
+```bash
+$ bun update
+$ bun install
+```
+## Start development server: 
+```bash
+$ bun run dev
+```
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
