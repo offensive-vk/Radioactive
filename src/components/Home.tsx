@@ -1,9 +1,9 @@
 import '../styles/Home.scss';
 
-function SectionHome() {
+function Home() {
   return (
     <div className='text subheading'>Nuclear Tech, Atomic Innovation</div>
   )
 }
 
-export default SectionHome;
+export default Home;

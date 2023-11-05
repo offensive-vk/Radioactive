@@ -3,7 +3,7 @@ import './styles/Global.scss';
 import Landing from './components/Landing';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import SectionHome from './components/SectionHome';
+import Home from './components/Home';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <Landing />
-      <SectionHome />
+      <Home />
       <Footer />
     </>
   )
