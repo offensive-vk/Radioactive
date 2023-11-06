@@ -23,7 +23,6 @@
     // max-width: calc(var(--max-width) - 10px);
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
     align-items: flex-start;
     justify-content: center;
     gap: 12px;
@@ -34,8 +33,8 @@
     background-color: #002a2c;
 
     .box{
-        height: clamp(250px, 2rem, 80vh);
-        width: clamp(250px, 2rem, 80vw);
+        height: clamp(250px, 3rem, 80vh);
+        width: clamp(250px, 3rem, 80vw);
         border: 1.2px solid #fff;
         padding: 0.9rem;
         text-align: justify;
@@ -43,7 +42,7 @@
         animation: style 5s ease-in-out infinite;
         line-height: 1.5;
         backdrop-filter: blur(12px);
-
+        word-spacing: -0.24rem;
         .opening, .closing {
             color: #18f796;
             font-size: 2.1rem;
