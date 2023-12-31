@@ -1,10 +1,10 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite - Radioactive, Inc.
 Production Build Repo for Enhanced Testing and Deployments.
 
 ## Crafted and Deployed using Bun 🙌 + Vercel 👌
 <p align="center">
-  <a href="https://bun.sh"><img src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png" alt="bun" height=350 width=350 /></a>
-  <a href="https://vercel.com"><img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="350" width="350" alt="vercel" /></a>
+  <a href="https://bun.sh"><img src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png" alt="bun" height=250 width=250 /></a>
+  <a href="https://vercel.com"><img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="250" width="250" alt="vercel" /></a>
 </p>
 
 ## Star this repository and fork , ( if you want to contribute ).
@@ -21,7 +21,7 @@ $ cd Radioactive
 $ curl -fsSL https://bun.sh/install | bash
 ```
 ```bash
-# Already installed : 
+# If Already installed : 
 $ bun update
 $ bun upgrade
 ```
