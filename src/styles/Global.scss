@@ -46,7 +46,7 @@ header {
         }
     }
     // Theme Switchers
-    .theme-switch{
+    .theme-switch {
         display: flex;
         gap: 0.4rem;
         flex-wrap: wrap;
@@ -57,6 +57,17 @@ header {
             cursor: inherit;
             background-color: #000;
             color: #fff;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        .theme-dark:focus {
+            background: #000;
+        }
+        .theme-light:focus {
+            background: #fff;
         }
     }
 }
