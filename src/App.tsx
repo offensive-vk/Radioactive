@@ -8,7 +8,7 @@ import Home from './components/Home';
 
 function App() {
   document.title = `Radioactive , Inc - Vedansh .K`;
-  console.log(`Welcome To Console @ ${undefined}.\n Elements Have Been Rendered. `);
+  console.log(`Welcome To Console @ ${undefined}.\n Page Has Been Rendered. \n`);
   return (
     <>
       <Header />
@@ -19,4 +19,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

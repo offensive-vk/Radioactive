@@ -1,4 +1,11 @@
 function Header() {
+    
+    function themeSwitch(): void {
+        const light = document.querySelector('.theme-light');
+        const dark = document.querySelector('.theme-dark');
+
+    }
+
     return (
         <header>
             <div className="logo">Radioactive</div>
