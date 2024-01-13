@@ -9,7 +9,9 @@ h1 {
     letter-spacing: -.06em;
     margin-top: 40px;
     margin-bottom: 40px;
-
+    user-select: none;
+    cursor: pointer;
+    
     /* Inherit */
     font-family: Arial Nova, sans-serif;
     padding: 20px;

@@ -1,6 +1,6 @@
 import '../styles/Home.scss';
 
-function Code(props: string, isClosing: boolean = false){
+function Code(props: string, isClosing: boolean = false) {
   if (isClosing) return <div className='closing'>&lt; {props} /&gt;</div>
   else return <div className='opening'>&lt; {props} &gt;</div>
 }
