@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://radioactive-drab.vercel.app/",
   "author": "Vedansh",
+  "keywords": ["bun", "sass", "typescript", "react", "vercel"],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
