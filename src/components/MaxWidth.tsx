@@ -21,4 +21,5 @@ const MaxBrowserWidth: React.FC = () => {
   );
 };
 
+
 export default MaxBrowserWidth;

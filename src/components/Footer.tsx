@@ -13,27 +13,27 @@ function Footer() {
                 <ul>
                     <li>
                         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/github/github-original.svg" />
                         </a>
                     </li>
                     <li>
                         <a href="https://gitlab.com" target="_blank" rel="noopener noreferrer">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/gitlab/gitlab-original.svg" />
                         </a>
                     </li>
                     <li>
                         <a href="https://npmjs.org" target="_blank" rel="noopener noreferrer">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/npm/npm-original-wordmark.svg" />
                         </a>
                     </li>
                     <li>
                         <a href="https://debian.org" target="_blank" rel="noopener noreferrer">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/debian/debian-original.svg" />
                         </a>
                     </li>
                     <li>
                         <a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/vscode/vscode-original.svg" />
                         </a>
                     </li>
                 </ul>
@@ -45,5 +45,6 @@ function Footer() {
         </footer>
     );
 }
+
 
 export default Footer;
