@@ -15,7 +15,7 @@ h1 {
     /* Inherit */
     font-family: Arial Nova, sans-serif;
     padding: 20px;
-    span{
+    span {
         font-size: 7rem;
         padding-left: 0.5em;
         padding-right: 0.5em;
@@ -23,7 +23,7 @@ h1 {
     }
 }
 
-.code, .test, .deploy{
+.code, .test, .deploy {
     background: linear-gradient(45deg, cyan, magenta, orange);
     background-size: 200%;
     background-clip: text;
