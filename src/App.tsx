@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Landing />
       <Home />
       <Footer />
+      <Analytics />
     </>
   )
 }
