@@ -12,11 +12,12 @@ For Any Information About Contribution and Documentation of This Repo. <br>
 
 ## Crafted and Deployed using Bun 🙌 + Vercel 👌
 <p align="center">
-  <a href="https://bun.sh"><img src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png" alt="bun" height=250 width=250 /></a>
-  <a href="https://vercel.com"><img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="250" width="250" alt="vercel" /></a>
+  <a href="https://reactjs.dev"><img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/react/react-original.svg" height="200" width="200" alt="react" /></a>
+  <a href="https://typescriptlang.org"><img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/typescript/typescript-plain.svg" height="200" width="200" alt="ts" /></a>
+  <a href="https://bun.sh"><img src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png" alt="bun" height=200 width=200 /></a>
+  <a href="https://vercel.com"><img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="200" width="200" alt="vercel" /></a>
 </p>
 
-## Star this repository and fork , ( if you want to contribute ).
 ## To get started 
 ```bash
 $ git clone https://github.com/offensive-vk/Radioactive
