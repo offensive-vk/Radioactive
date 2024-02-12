@@ -8,7 +8,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
-  document.title = `Radioactive , Inc - Vedansh .K`;
+  document.title = `Radioactive , Inc - Vedansh K.`;
   console.log(`Welcome To Console @ ${undefined}.\n Page Has Been Rendered. \n`);
   return (
     <>
