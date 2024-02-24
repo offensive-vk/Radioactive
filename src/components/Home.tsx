@@ -9,26 +9,26 @@ function Home() {
   return (
     <>
 
-    <div className='text subheading'>
-      Nuclear Tech, Atomic Innovation 
-    </div>
-    <div className='explain'>
-      <div className='box _code'>
-        {Code('Code')}<br />
+      <div className='text subheading'>
+        Nuclear Tech, Atomic Innovation
+      </div>
+      <div className='explain'>
+        <div className='box _code'>
+          {Code('Code')}<br />
           Crafting digital poetry with logic and language of your choice. Best in class is Typescript.
-        {Code('Code', true)}
-      </div>
-      <div className='box _test'>
-        {Code('Test')}<br/>
+          {Code('Code', true)}
+        </div>
+        <div className='box _test'>
+          {Code('Test')}<br />
           The important detective work that ensures your creation is flawless. Works perfectly fine.
-        {Code('Test', true)}
+          {Code('Test', true)}
+        </div>
+        <div className='box _deploy'>
+          {Code('Deploy')} <br />
+          Releasing your digital masterpiece into the world, like a ship to sail on a new adventure.
+          {Code('Deploy', true)}
+        </div>
       </div>
-      <div className='box _deploy'>
-        {Code('Deploy')} <br/>
-          Releasing your digital masterpiece into the world, like a ship to sail on a new adventure. 
-        {Code('Deploy', true)}
-      </div>
-    </div>
     </>
   )
 }

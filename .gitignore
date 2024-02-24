@@ -29,3 +29,4 @@ settings.json
 *.out
 *.cpp
 *.cxx
+*.bin
