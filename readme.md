@@ -8,9 +8,9 @@ For Any Information About Contribution and Documentation of This Repo.
 
 ### Please Refer to: 
 
-- [Documentation 📖](https://github.com/offensive-vk/Radioactive/blob/master/README.md) <br>
-- [Contribution Guidelines ✨](https://github.com/offensive-vk/Radioactive/blob/master/.github/CONTRIBUTING.md)
-- [Security Guidelines ⚠️](https://github.com/offensive-vk/Radioactive/blob/master/.github/SECURITY.md)
+- [Documentation 📖](https://github.com/offensive-vk/Radioactive/blob/master/readme.md) *(Current File)*
+- [Contribution Guidelines ✨](https://github.com/offensive-vk/Radioactive/blob/master/.github/contributing.md)
+- [Security Guidelines ⚠️](https://github.com/offensive-vk/Radioactive/blob/master/.github/security.md)
 - [Author 🧑‍💻](https://github.com/offensive-vk/)
 
 ## Crafted and Deployed using Bun 🙌 + Vercel 👌
@@ -24,13 +24,16 @@ For Any Information About Contribution and Documentation of This Repo.
 </p>
 
 ## If you want to contribute to this repository. 
+
 ### Clone the Repository
+
 ```bash
 $ git clone https://github.com/offensive-vk/Radioactive
 $ cd Radioactive
 ```
 
 ### Install or update bun
+
 ```bash 
 # Need to install with install script (recommended)
 $ curl -fsSL https://bun.sh/install | bash
@@ -45,6 +48,7 @@ $ bun upgrade
 ```bash
 $ bun install
 ```
+
 ### Start development server: 
 ```bash
 $ bun run dev
