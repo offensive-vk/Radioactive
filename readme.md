@@ -1,6 +1,6 @@
 # React + TypeScript + Vite - Radioactive, Inc.
 * Production Build for Enhanced Testing and Deployments.
-* Preview Versions are Live at Our [Radioactive's Domain](https://radioactive-drab.vercel.app/)
+* Preview Versions are Live at Our [Radioactive's Domain](https://radioactive-drab.vercel.app/).
 
 ## Quick Links and Navigation:
 
@@ -81,3 +81,12 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+***
+
+<p align="center">
+  <i>&copy; <a href="https://github.com/offensive-vk/">Vedansh </a> 2023 - Present</i><br>
+  <i>Licensed under <a href="https://github.com/offensive-vk/UntilEverything?tab=CC0-1.0-1-ov-file#CC0-1.0-1-ov-file">CC0-1.0</a></i><br>
+  <a href="https://github.com/npm-run-test"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
+  <sup>Thanks for visiting :)</sup>
+</p>
