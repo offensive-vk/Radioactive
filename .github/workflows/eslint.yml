@@ -1,4 +1,4 @@
-name: ESLint
+name: CI / ESLint
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   eslint:
-    name: Run eslint scanning
+    name: Run eslint
     runs-on: ubuntu-latest
     permissions:
       contents: read
